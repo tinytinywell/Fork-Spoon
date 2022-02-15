@@ -1,12 +1,16 @@
 # Fork-Spoon
-please download the yolov3.weights here:  
-https://pjreddie.com/media/files/yolov3.weights  
-after downloaded, put the weights file in the folder same as py script.  
-**Required:  
-opencv  
-numpy  
-
+**Required:**   
+  
+* opencv    
+pip install opencv-python  
+* numpy    
 pip install numpy  
-and  
-pip install opencv-python
+* coco.names  
+https://github.com/pjreddie/darknet/blob/master/data/coco.names   
+* yolov3.cfg  
+https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg
+* yolov3.weights  
+https://pjreddie.com/media/files/yolov3.weights  
 
+
+after downloaded, put the coco.names, yolov3.cfg and yolov3.weights files in the folder same as py script.  
