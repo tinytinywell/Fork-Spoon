@@ -84,7 +84,7 @@ while True:
     outputs = net.forward(outLayersName)
     object_detection(outputs, img)
 
-    cv2.imshow("detection", img)
+    cv2.imshow("press q to exit", img)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
