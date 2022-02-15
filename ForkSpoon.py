@@ -55,7 +55,7 @@ def object_detection(outs, image):
 
 
 # the path of py file
-file_path = os.path.abspath(os.path.dirname(__file__))
+file_path = os.path.dirname(__file__)
 # the path of label file coco.names
 label_path = file_path + '/coco.names'
 # the path of weights file yolov3.weights
